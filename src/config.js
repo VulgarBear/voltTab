@@ -115,26 +115,31 @@ export const config = {
 
         // image eg:
         // { image: 'https://example.com/image.jpg', url: 'https://website.com/' },
-
+        
+        // face goodreads imgur instagram reddit twitter
         { icon: 'fa-brands fa-facebook', url: 'https://www.facebook.com/' },
         { icon: 'fa-brands fa-goodreads', url: 'https://www.goodreads.com/' },
-        { icon: 'fa-solid fa-hexagram-image', url: 'https://www.imgur.com/' },
+        { icon: 'fa-solid fa-hexagon-image', url: 'https://www.imgur.com/' },
         { icon: 'fa-solid fa-instagram', url: 'https://www.instagram.com/' },
         { icon: 'fa-brands fa-reddit', url: 'https://www.reddit.com/' },
         { icon: 'fa-brands fa-twitter', url: 'https://twitter.com/' },
       ]
 
     }, {
-      name: 'Cool stuff',
-      description: 'Downtime and media',
+      // crunchyroll curiosity discovery disney hbo hulu nebula netflix paramount youtube
+      name: 'Media',
+      description: 'Streaming time',
       color: { primary: { hsl: [0, 0, 100] }, secondary: { hsl: [250, 60, 70] } },
       list: [
-        { icon: 'fa-brands fa-reddit-alien', url: 'https://reddit.com/' },
-        { icon: 'fa-brands fa-artstation', url: 'https://www.artstation.com/' },
-        { icon: 'fa-brands fa-discord', url: 'https://discord.com/' },
-        { icon: 'fa-solid fa-paperclip', url: 'https://www.decisionproblem.com/paperclips/' },
-        { icon: 'fa-solid fa-dice-d20', url: 'https://zombiefox.github.io/diceRoller/' },
-        { icon: 'fa-brands fa-dribbble', url: 'https://dribbble.com/' },
+        { icon: 'fa-solid fa-sushi', url: 'https://beta.crunchyroll.com/' },
+        { icon: 'fa-solid fa-circle-y', url: 'https://curiositystream.com/' },
+        { icon: 'fa-solid fa-sparkle', url: 'https://www.discoveryplus.com/' },
+        { icon: 'fa-solid fa-mouse-field', url: 'https://www.disneyplus.com/' },
+        { icon: 'fa-solid fa-axe-battle', url: 'https://play.hbomax.com/' },
+        { icon: 'fa-solid fa-comet', url: 'https://nebula.app/' },
+        { icon: 'fa-solid fa-clapperboard', url: 'https://www.netflix.com/' },
+        { icon: 'fa-solid fa-mountain', url: 'https://www.netflix.com/' },
+        { icon: 'fa-solid fa-mountain', url: 'https://www.youtube.com/' },
       ]
     }, {
       name: 'Entertainment',
