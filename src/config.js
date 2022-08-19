@@ -43,7 +43,7 @@ export const config = {
   bookmark: {
 
     // open the bookmarks in a new tab: true or false
-    newTab: true, // boolean: true|false
+    newTab: false, // boolean: true|false
 
     // the bookmark panel and group name position and direction the bookmarks flow
     direction: 'left', // string: left|right
