@@ -88,10 +88,10 @@ export const config = {
     group: [{
 
       // bookmark group name
-      name: 'Productivity',
+      name: 'Social',
 
       // bookmark group description
-      description: 'Daily apps',
+      description: 'Talk to Someone',
 
       // bookmark colours
       // colour defined with HSL: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl
@@ -116,15 +116,12 @@ export const config = {
         // image eg:
         // { image: 'https://example.com/image.jpg', url: 'https://website.com/' },
 
-        { icon: 'fa-solid fa-envelope', url: 'https://mail.google.com/' },
-        { icon: 'fa-brands fa-slack', url: 'https://slack.com/signin/' },
-        { icon: 'fa-brands fa-github', url: 'https://github.com/' },
-        { icon: 'fa-brands fa-codepen', url: 'https://codepen.io/' },
-        { icon: 'fa-solid fa-diamond', url: 'https://whimsical.com/login/' },
-        { icon: 'fa-brands fa-figma', url: 'https://figma.com/' },
-        { icon: 'fa-brands fa-dropbox', url: 'https://dropbox.com/' },
-        { icon: 'fa-brands fa-google-drive', url: 'https://drive.google.com/' },
-        { icon: 'fa-solid fa-calendar-day', url: 'https://calendar.google.com/calendar/' },
+        { icon: 'fa-brands fa-facebook', url: 'https://www.facebook.com/' },
+        { icon: 'fa-brands fa-goodreads', url: 'https://www.goodreads.com/' },
+        { icon: 'fa-solid fa-hexagram-image', url: 'https://www.imgur.com/' },
+        { icon: 'fa-solid fa-instagram', url: 'https://www.instagram.com/' },
+        { icon: 'fa-brands fa-reddit', url: 'https://www.reddit.com/' },
+        { icon: 'fa-brands fa-twitter', url: 'https://twitter.com/' },
       ]
 
     }, {
